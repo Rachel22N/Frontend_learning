@@ -3,8 +3,6 @@
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-    display: flex;
-    padding-top: 29px;
     /* background-color: pink; */
 }
 
@@ -16,6 +14,11 @@ body {
 .header {
     height: 100px;
     background-color: #fff;
+}
+
+.header .wrapper {
+    display: flex;
+    padding-top: 29px;
 }
 
 .logo a {
@@ -99,4 +102,98 @@ body {
 .user span {
     font-size: 16px;
     color: #666;
+}
+
+/* banner area */
+.banner {
+    background-color: #0092cb;
+    height: 420px;
+}
+
+.banner .wrapper{
+    display: flex;
+    height: 420px;
+    background-image: url(../uploads/banner.png);
+    justify-content: space-between;
+}
+
+.banner .left {
+    padding: 3px 20px;
+    height: 420px;
+    width: 191px;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.banner .left a {
+    display: block;
+    height: 46px;
+    background: url(../images/right.png) no-repeat right center;
+    line-height: 46px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.banner .left a:hover {
+    background-image: url(../images/right-hover.png);
+    color: #00a4ff;
+}
+
+.banner .right {
+    margin-top: 60px;
+    width: 218px;
+    height: 305px;
+    background-color: #209dd5;
+    border-radius: 10px;
+}
+
+.banner .right h3 {
+    margin-left: 14px;
+    margin-top: 18px;
+    height: 48px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.banner .right .content {
+    padding: 14px;
+    height: 257px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.banner .right dl{
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.banner .right dt {
+    margin-bottom: 8px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner .right dd {
+    margin-bottom: 8px;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.banner .right dd span {
+    color: #00a4ff;
+}
+
+.banner .right dd strong {
+    color: #7d7d7d
+}
+.banner .right a {
+    display: block;
+    height: 32px;
+    background-color: #00a4ff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 15px;
 }
