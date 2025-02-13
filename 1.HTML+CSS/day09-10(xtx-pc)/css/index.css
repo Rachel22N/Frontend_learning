@@ -186,7 +186,8 @@
 }
 
 .brand .wrapper {
-    overflow: hidden; /* 解决外边距塌陷问题 */
+    overflow: hidden;
+    /* 解决外边距塌陷问题 */
     height: 468px;
     /* background-color: pink; */
 }
@@ -304,6 +305,12 @@
     line-height: 19px;
 }
 
+.content .info h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .content .price {
     color: #AF2F22;
 }
@@ -332,6 +339,7 @@
     font-size: 18px;
 }
 
+/* 线 */
 .content .cover p:nth-child(2) {
     margin: 3px auto 6px;
     width: 120px;
